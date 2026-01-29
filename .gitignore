@@ -1,0 +1,180 @@
+# =============================================
+# .NET / C# Backend
+# =============================================
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio cache/options
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.cache
+*.dll
+*.exe
+*.pdb
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+!**/packages/build/
+
+# =============================================
+# Node.js / React Frontend
+# =============================================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# Build output
+dist/
+dist-ssr/
+build/
+out/
+*.local
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =============================================
+# Database
+# =============================================
+
+# SQL Server data files
+*.mdf
+*.ldf
+*.ndf
+
+# Database backups
+*.bak
+
+# =============================================
+# Docker
+# =============================================
+
+# Docker volumes
+docker-volumes/
+data/
+volumes/
+
+# =============================================
+# IDE and Editors
+# =============================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# =============================================
+# OS Files
+# =============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.Trash-*
+
+# =============================================
+# Logs and temporary files
+# =============================================
+
+*.log
+logs/
+*.tmp
+*.temp
+
+# =============================================
+# Anaconda / Python
+# =============================================
+
+# Anaconda Navigator
+.anaconda/
+**/.anaconda/
+**/anaconda-navigator/
+ad_cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# =============================================
+# Project specific
+# =============================================
+
+# Archivos de configuración con datos sensibles
+appsettings.Development.json
+appsettings.Production.json
+connectionstrings.json
+
+# Archivos de prueba temporales
+test-results/
+coverage/
+TestResults/
+
+# Archivos de backup
+*.backup
+*.old
+
+# Archivos PDF del proyecto (opcional - descomentar si no quieres subirlos)
+# proyecto.pdf
